@@ -1,0 +1,19 @@
+main: ${spigot.package}.${project.name}
+name: ${project.name}
+version: ${project.version}
+description: "${project.description}"
+prefix: ${spigot.prefix}
+website: "${spigot.website}"
+authors:
+  - mfnalex
+  - JEFF Media GbR
+database: false
+api-version: "1.13"
+load: POSTWORLD
+
+softdepend: []
+
+permissions:
+
+commands:
+  ${spigot.mainCommand}:
